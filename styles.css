@@ -10,8 +10,8 @@
     font-size: 62.5%;
     --white: #f6e4e4;
     --background: #b8862fe0;
-    /*FÄRGER HÄR*/
-
+    --black: #333;
+    --button: #45a049;
 }
 
 body {
@@ -20,9 +20,9 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Merriweather', serif;
-    height: 100vh;
-    border: 2px solid orange;
-  }
+    min-height: 100vh;
+    margin: 0;
+}
 
   .background-image{
     min-height: 100vh;
@@ -32,57 +32,74 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
 header{
-    margin-bottom: 100px;
-}
-main{
-    border: 2px solid green;
-}
-footer{
-    border: 2px solid blue;
+    margin: 100px 0 100px 0;
 }
 
-  h1 {
+main{
     color: var(--white);
     background-color: var(--background);
-    font-size: 4rem;
-    padding: 1.2rem;
     border-radius: 10px;
-  }
+}
 
-  form {
+h1 {
+    color: var(--white);
+    background-color: var(--background);
+    font-size: 3.8rem;
+    letter-spacing: 1px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+form {
     display: flex;
     flex-direction: column;
     max-width: 300px;
     margin: 0 auto;
-  }
+}
 
-  label {
+label {
     margin-top: 10px;
-    font-size: 16px;
-    color: #333;
-  }
+    font-size: 1.8rem;
+    color: var(--white);
+    letter-spacing: 1px;
+    padding: 0.5rem;
+}
 
-  input, select, button {
+input, select, button {
     margin-top: 5px;
     padding: 8px;
     font-size: 14px;
-  }
+}
 
-  button {
-    background-color: #4CAF50;
-    color: white;
+button {
+    background-color: var(--button);
+    color: var(--white);
     cursor: pointer;
-  }
+}
 
-  button:hover {
-    background-color: #45a049;
-  }
+button:hover {
+    background-color: var(--button);
+}
 
-  #result {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #333;
-  }
+#result {
+    margin: 20px 0 10px 0;
+    padding-right: 15px;
+    font-size: 2rem;
+    text-align: right;
+    color: var(--black);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--background);
+    padding: 15px;
+    font-size: 1.6rem;
+    width: 100%;
+    margin-top: auto;
+}
