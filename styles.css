@@ -23,7 +23,18 @@ body {
     border: 2px solid orange;
   }
 
+  .background-image{
+    height: 100%;
+    width: 100%;
+    background-image: url("maths.webp");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 header{
+    margin-bottom: 100px;
     border: 2px solid red;
 }
 main{
