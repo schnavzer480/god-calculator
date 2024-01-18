@@ -3,11 +3,11 @@ window.onload = function() {
       "Hello!",
       "Welcome to the best calculator ever built!",
       "Right now we are experiencing some performance issues.",
-      "But we are debugging the shit out of this rn.",
+      "But we are debugging the shit out of this rn!",
       "The whole team is trying to solve the issue.",
-      "Just a few more seconds.",
-      "Our best programmer is working on it.",
-      "The rest of us are writing these messages",
+      "Just a few more seconds..",
+      "Our best programmer is working on it!",
+      "The rest of us are writing these messages.",
       "I think we fixed it!",
       "Have a great day!"
     ];
