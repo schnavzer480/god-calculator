@@ -1,12 +1,8 @@
 window.onload = function() {
     const messages = [
-      "Hello!",
       "Welcome to the best calculator ever built!",
       "Right now we are experiencing some performance issues.",
-      "But no worries, we are debugging the shit out of it!",
-      "The whole team is trying to solve the issue.",
-      "Just a few more seconds..",
-      "Our best programmer is working on it!",
+      "But no worries, our best brogrammer is debugging the shit out of it!",
       "The rest of us are writing these messages.",
       "I think we fixed it!",
       "Have a great day!"
