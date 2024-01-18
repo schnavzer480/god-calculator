@@ -11,5 +11,5 @@ function calculate() {
     const resultElement = document.getElementById('result');
     const result = customCalculator(num1, operator, num2);
 
-    resultElement.textContent = `Result: ${result}`;
+    resultElement.textContent = `${result}`;
 }
